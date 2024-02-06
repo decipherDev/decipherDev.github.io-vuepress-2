@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.6" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.22" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://mister-hope.github.io/demo/disable.html"><meta property="og:site_name" content="Blog Demo"><meta property="og:title" content="Disabling layout and features"><meta property="og:description" content="You can disable some function and layout on the page by setting the Frontmatter of the page. This page is an demo that disables the following features: Navbar Sidebar Breadcrumb..."><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><meta property="og:updated_time" content="2024-02-06T15:47:38.000Z"><meta property="article:author" content="Mr.Hope"><meta property="article:tag" content="disable"><meta property="article:modified_time" content="2024-02-06T15:47:38.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Disabling layout and features","image":[""],"dateModified":"2024-02-06T15:47:38.000Z","author":[{"@type":"Person","name":"Mr.Hope","url":"https://mister-hope.com"}]}</script><title>Disabling layout and features | Blog Demo</title><meta name="description" content="You can disable some function and layout on the page by setting the Frontmatter of the page. This page is an demo that disables the following features: Navbar Sidebar Breadcrumb...">
+    <link rel="stylesheet" href="/assets/css/styles.8fa64941.css">
+    <link rel="preload" href="/assets/js/runtime~app.f1bddb85.js" as="script"><link rel="preload" href="/assets/css/styles.8fa64941.css" as="style"><link rel="preload" href="/assets/js/8940.5d01c002.js" as="script"><link rel="preload" href="/assets/js/app.af751dd9.js" as="script">
+    <link rel="prefetch" href="/assets/js/4637.b84c639f.js" as="script"><link rel="prefetch" href="/assets/js/v-793f96d8.9a725566.js" as="script"><link rel="prefetch" href="/assets/js/v-124387f4.bd99c601.js" as="script"><link rel="prefetch" href="/assets/js/v-74022db9.11d35528.js" as="script"><link rel="prefetch" href="/assets/js/v-4ec95bbd.6542bf12.js" as="script"><link rel="prefetch" href="/assets/js/v-3b9a5cdf.61006e21.js" as="script"><link rel="prefetch" href="/assets/js/v-558e299d.e371e5f5.js" as="script"><link rel="prefetch" href="/assets/js/v-4e95d36e.620734fe.js" as="script"><link rel="prefetch" href="/assets/js/v-c3be2b32.ba452785.js" as="script"><link rel="prefetch" href="/assets/js/v-39e58440.3576398d.js" as="script"><link rel="prefetch" href="/assets/js/v-3f040e1d.0121998e.js" as="script"><link rel="prefetch" href="/assets/js/v-3d4f357e.c8d04e3f.js" as="script"><link rel="prefetch" href="/assets/js/v-504aac0d.6e7b44d7.js" as="script"><link rel="prefetch" href="/assets/js/v-51ff84ac.6511c73a.js" as="script"><link rel="prefetch" href="/assets/js/v-0ef5d1ca.f3431954.js" as="script"><link rel="prefetch" href="/assets/js/v-4ce0facf.506bfe7b.js" as="script"><link rel="prefetch" href="/assets/js/v-a11e9524.90c6377b.js" as="script"><link rel="prefetch" href="/assets/js/v-6e329710.661df6d4.js" as="script"><link rel="prefetch" href="/assets/js/v-6d318e63.c82151aa.js" as="script"><link rel="prefetch" href="/assets/js/v-53116c3d.90521e0d.js" as="script"><link rel="prefetch" href="/assets/js/9912.224a736f.js" as="script"><link rel="prefetch" href="/assets/js/v-64ab010a.5ff3043b.js" as="script"><link rel="prefetch" href="/assets/js/v-5f1912fe.eb49be08.js" as="script"><link rel="prefetch" href="/assets/js/v-6cd3eb2c.4e3f3997.js" as="script"><link rel="prefetch" href="/assets/js/v-4dca73a0.cd4cedfb.js" as="script"><link rel="prefetch" href="/assets/js/v-6bb37301.635b2a85.js" as="script"><link rel="prefetch" href="/assets/js/v-72ab7f22.f6120340.js" as="script"><link rel="prefetch" href="/assets/js/v-a5656454.cf291ae2.js" as="script"><link rel="prefetch" href="/assets/js/v-373c7568.8c71e4c3.js" as="script"><link rel="prefetch" href="/assets/js/v-2ec2f2d7.5c88d0de.js" as="script"><link rel="prefetch" href="/assets/js/v-cf62fc16.f06b0e8b.js" as="script"><link rel="prefetch" href="/assets/js/v-5b87a9dd.502c0db3.js" as="script"><link rel="prefetch" href="/assets/js/v-9d27a488.4fa82f95.js" as="script"><link rel="prefetch" href="/assets/js/v-bb471e4e.bb68b106.js" as="script"><link rel="prefetch" href="/assets/js/v-3ee3dde1.8ebae890.js" as="script"><link rel="prefetch" href="/assets/js/v-2810a257.a6635849.js" as="script"><link rel="prefetch" href="/assets/js/v-01348994.bf431966.js" as="script"><link rel="prefetch" href="/assets/js/v-02ae359a.445b0386.js" as="script"><link rel="prefetch" href="/assets/js/v-309167cc.5a29a6e2.js" as="script"><link rel="prefetch" href="/assets/js/v-ee9269f6.3d1cf17a.js" as="script"><link rel="prefetch" href="/assets/js/v-526dcc8f.0c7be27b.js" as="script"><link rel="prefetch" href="/assets/js/v-49501541.b5e76a30.js" as="script"><link rel="prefetch" href="/assets/js/v-d3e8b5e0.b66c9126.js" as="script"><link rel="prefetch" href="/assets/js/v-4a79ed7c.15c6a627.js" as="script"><link rel="prefetch" href="/assets/js/v-d5b24bc2.76d73835.js" as="script"><link rel="prefetch" href="/assets/js/v-8fe89ed2.3c02d90a.js" as="script"><link rel="prefetch" href="/assets/js/v-7be5f476.0fb9ed05.js" as="script"><link rel="prefetch" href="/assets/js/v-2d1b5e52.bcdb1d81.js" as="script"><link rel="prefetch" href="/assets/js/v-8847cf24.94119137.js" as="script"><link rel="prefetch" href="/assets/js/v-427f4782.7226be1a.js" as="script"><link rel="prefetch" href="/assets/js/v-fa201964.e73f6882.js" as="script"><link rel="prefetch" href="/assets/js/v-da09220e.f988428b.js" as="script"><link rel="prefetch" href="/assets/js/7516.8eed3270.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">Skip to main content</a><!--]--><div class="theme-container no-navbar no-sidebar has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!--[--><!----><!--]--><ul class="vp-sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!--[--><!----><!--]--><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-gears" style=""></span>Disabling layout and features</h1><!----><hr></div><!----><!--[--><!----><!--]--><div class="theme-hope-content"><p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p><!-- more --><p>This page is an demo that disables the following features:</p><ul><li>Navbar</li><li>Sidebar</li><li>Breadcrumb</li><li>Page information</li><li>Contributors</li><li>Edit link</li><li>Update time</li><li>Prev/Next link</li><li>Comment</li><li>Footer</li><li>Back to top button</li></ul></div><!--[--><!----><!--]--><footer class="page-meta"><!----><div class="meta-item git-info"><!----><!----></div></footer><!----><!----><!--[--><!----><!--]--><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script src="/assets/js/runtime~app.f1bddb85.js" defer></script><script src="/assets/js/8940.5d01c002.js" defer></script><script src="/assets/js/app.af751dd9.js" defer></script>
+  </body>
+</html>
